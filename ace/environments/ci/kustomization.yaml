@@ -1,4 +1,8 @@
 resources:
+- imagestreams/sh-tools.yaml
+- buildconfig/sh-tools.yaml
+- roles/custom-images-builder-role.yaml
+- roles/custom-images-builder-rolebinding.yaml
 # - buildconfig/sh-tools.yaml
 # - configmaps/gitops-repo-configmap.yaml
 # - eventlisteners/ace-bar-event-listener.yaml
