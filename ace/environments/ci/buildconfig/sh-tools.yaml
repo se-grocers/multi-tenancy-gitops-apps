@@ -10,8 +10,8 @@ spec:
   source:
     dockerfile:
 	    FROM ubuntu:latest
-	  
-            RUN apt update
+      
+      RUN apt update
 
 	    ARG VERSION=v4.7.1
 
