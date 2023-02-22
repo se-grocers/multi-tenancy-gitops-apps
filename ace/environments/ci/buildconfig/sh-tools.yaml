@@ -8,7 +8,7 @@ spec:
       kind: ImageStreamTag
       name: sh-tools:latest
   source:
-    dockerfile: |
+  dockerfile: |
 	FROM ubuntu:latest
 	RUN apt update 
 	ARG VERSION=v4.7.1
